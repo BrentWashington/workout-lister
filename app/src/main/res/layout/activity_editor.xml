@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:context=".EditorActivity">
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/action_add" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/save_button"
+        android:text="@string/delete" />
+
+    <RelativeLayout
+        android:id="@+id/label_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true">
+
+        <!-- Workout name editor view -->
+        <TextView
+            android:id="@+id/name_category_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/editor_name"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+        <!-- Workout reps editor view -->
+        <TextView
+            android:id="@+id/reps_category_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/editor_reps"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+        <!-- Workouts sets editor view -->
+        <TextView
+            android:id="@+id/sets_category_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:text="@string/editor_sets"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+        <!-- Workout rest time editor view -->
+        <TextView
+            android:id="@+id/rest_time_category_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="@string/editor_rest_time"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_toEndOf="@+id/label_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentEnd="true">
+
+        <!-- The input text field for the name of the workout -->
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/hint_workout_name"
+            android:inputType="textCapWords"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:textSize="18sp" />
+
+        <!-- The input text field for the reps in the workout -->
+        <EditText
+            android:id="@+id/input_rep_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="@string/hint_workout_reps"
+            android:inputType="number"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:textSize="18sp" />
+
+        <!-- The input text field for the sets in the workout -->
+        <EditText
+            android:id="@+id/input_sets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:hint="@string/hint_workout_sets"
+            android:inputType="number"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:textSize="18sp" />
+
+        <!-- The input text field for the rest time in the workout -->
+        <EditText
+            android:id="@+id/input_rest_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="142dp"
+            android:hint="@string/hint_rest_period"
+            android:inputType="number"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:textSize="18sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

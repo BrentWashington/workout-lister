@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Workout Lister</string>
+
+    <string name="empty_view_title_text">No workouts found</string>
+
+    <string name="empty_view_subtext">Get started by clicking the red button</string>
+
+    <!-- Text for the rep counter -->
+    <string name="rep_count">Reps: </string>
+
+    <!-- Text for the set counter -->
+    <string name="set_count">Sets: </string>
+
+    <!-- Text for the duration of the rest period between sets -->
+    <string name="rest_period">Rest Period: </string>
+
+    <!-- Text for the rest period in seconds -->
+    <string name="rest_period_seconds">Seconds</string>
+
+    <!-- Text for the delete workouts menu option -->
+    <string name="action_delete_all_workouts">Delete All Workouts</string>
+
+    <!-- Title for the activity to add a new workout  -->
+    <string name="editor_activity_title_add_workout">Add Workout</string>
+
+    <!-- Title for the activity to edit an existing workout -->
+    <string name="editor_activity_title_edit_workout">Edit Workout</string>
+
+    <!-- Label for editor menu option to save workout and leave editor screen  -->
+    <string name="action_add">Save</string>
+
+    <!-- Label for details overflow menu option that deletes the current workout -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for reps category in the editor screen -->
+    <string name="editor_reps">Reps</string>
+
+    <!-- Label for sets category in the editor screen -->
+    <string name="editor_sets">Sets</string>
+
+    <!-- Label for name category in the editor screen -->
+    <string name="editor_name">Name</string>
+
+    <!-- Label for rest time category in the editor screen -->
+    <string name="editor_rest_time">Rest Time</string>
+
+    <!-- Text hint for name field in the editor screen  -->
+    <string name="hint_workout_name">ex. Leg Press</string>
+
+    <!-- Text hint for reps field in the editor screen -->
+    <string name="hint_workout_reps">ex. 10</string>
+
+    <!-- Text hint for sets field in the editor screen  -->
+    <string name="hint_workout_sets">ex. 2</string>
+
+    <!-- Text hint for the rest period field in the editor screen -->
+    <string name="hint_rest_period">ex. 30</string>
+
+    <!-- Toast message in the editor screen when new workout has been successfully inserted -->
+    <string name="editor_insert_workout_successful">Workout Added</string>
+
+    <!-- Toast message in the editor screen when an existing workout has been successfully updated -->
+    <string name="editor_update_workout_successful">Workout Updated</string>
+
+    <!-- Toast message in editor screen when an existing workout has failed to be updated -->
+    <string name="editor_update_workout_failed">Error with updating workout</string>
+
+    <!-- Toast message in editor screen when new workout has failed to be inserted -->
+    <string name="editor_insert_workout_failed">Error with adding workout</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current workout-->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor screen when current workout was successfully deleted -->
+    <string name="editor_delete_workout_successful">Workout Deleted</string>
+
+    <!-- Toast message in editor screen when current workout has failed to be deleted -->
+    <string name="editor_delete_workout_failed">Error with deleting workout</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current workout -->
+    <string name="delete_dialog_msg">Delete this workout?</string>
+
+    <!-- Dialog message when user is leaving editor screen but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current workout -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current workout -->
+    <string name="cancel">Cancel</string>
+</resources>
